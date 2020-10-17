@@ -86,6 +86,7 @@ class RandomWordsState extends State<RandomWords> {
 
   }
 }
+// statefulwidget section
 class RandomWords extends StatefulWidget {
   @override
   RandomWordsState createState() => RandomWordsState();
