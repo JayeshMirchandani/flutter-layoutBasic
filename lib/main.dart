@@ -28,7 +28,7 @@ class RandomWordsState extends State<RandomWords> {
     // final WordPair wordPair = WordPair.random();
     // return Text(wordPair.asPascalCase);
      final List<WordPair> _suggestions = <WordPair>[];
-     final TextStyle _biggerFont = const TextStyle(fontSize: 18);
+     final TextStyle _biggerFont = const TextStyle(fontSize: 20);
 
      Widget _buildSuggestions() {
      return ListView.builder(
